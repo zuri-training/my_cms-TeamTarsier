@@ -1,0 +1,26 @@
+{
+  "name": "my_cms-teamtarsier",
+  "version": "1.0.0",
+  "description": "my_cms is platform that allows users spin up a basic website and allows many customizations as possible",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NICKY-TECH/my_cms-TeamTarsier.git"
+  },
+  "author": "TEAMTARSIER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NICKY-TECH/my_cms-TeamTarsier/issues"
+  },
+  "homepage": "https://github.com/NICKY-TECH/my_cms-TeamTarsier#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.5"
+  }
+}
