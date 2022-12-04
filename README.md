@@ -24,7 +24,3 @@
   - Ability to add social media links
   
 
-#Resources
-Documentation
-Data Schema
-Moodboard
