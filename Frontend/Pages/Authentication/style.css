@@ -30,6 +30,7 @@ header p {
 font-size: 16px;
 font-weight: 400;
 line-height: 19px;
+padding-bottom: 24px;
 }
 
 .field {
@@ -39,11 +40,13 @@ line-height: 19px;
 
 
 
+
 label {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
   color: #333333;
+  padding-bottom: 8px;
 }
 
 form {
@@ -78,6 +81,11 @@ form {
   font-size: 16px;
   font-weight: 400;
   background-color: rgba(0, 63, 145, 1);
+}
+
+.input{
+    font-size: 16px;
+   
 }
 
 .field input {
@@ -121,7 +129,7 @@ form {
 
 .form-link span,
 .form-link span a {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
 }
 .form a {
@@ -161,7 +169,8 @@ form {
 .media-options{
     width: 400px;
     height: 48px;
-    padding: 0 0 0 67.5px;
+    padding: 0 67.5px;
+    margin-top: 24px;
 
 }
 
@@ -191,7 +200,7 @@ a.facebook .facebook-img {
 img.google-img{
     position: absolute;
     top: 50%;
-    left: 15px;
+    left: 60px;
     transform: translateY(-50%);
 }
 
@@ -207,4 +216,23 @@ a.google span{
     font-weight: 500;
 
     color: white;
+}
+
+.t-c {
+    font-size: 16px;
+    display: flex;
+justify-content: center;
+padding: 0 0 0 73.05px;
+padding-top: 24px;
+}
+.remfor {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    font-size: 16px;
+    align-items: center;
+}
+.remfor label{
+    padding-left: 6px;
+    align-items: center;
 }
