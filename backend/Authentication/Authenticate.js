@@ -1,13 +1,20 @@
 const jwt=require('jsonwebtoken');
+const cookieParser= require('cookie-parser');
 
 
 function tokenCreation(id){
-jwt.sign({id},process.env.SECRET,{expiresIn:'2days'},(error,token)=>{
-    console.log(token);
+jwt.sign({id},process.env.TOKEN_SECRET,{expiresIn:'2days'},(error,token)=>{
+    res.cookie('jwt',token,{httpOnly:true});
 
 })
 }
+function verifyMiddleware(req,res,next){
+    const tokens=req.cookie.jwt;
+    jwt.verify(tokens,TOKEN_SECRET,)
+
+}
 
 module.exports={
-    tokenCreation
+    tokenCreation,
+    verifyMiddleware
 }

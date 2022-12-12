@@ -14,7 +14,7 @@ const {registerRoute}=require(path.join(__dirname,'Routes','register.routes'));
 
 app.use(express.json());
 
-// app.use(cookieParser);
+app.use(cookieParser());
 
 app.use(registerRoute);
 
