@@ -1,0 +1,169 @@
+body{
+    margin: auto;
+    padding:0%
+}
+.upload{
+    width: 100px;
+    position: block;
+    margin: auto
+}
+.build{
+text-align: center;
+}
+.circle{ 
+    border: solid 1px black;
+    background-color: #003F91;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+   
+.fullname{
+    width: 320px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+role{
+    margin-left: 20px
+}
+   
+
+.upload img{
+    border-radius: 60%;
+    border: 6px solid #eaeaea;
+    width: 50px;
+    height: 56px;
+}
+.phone{
+    width: 320px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.btn{
+   height: 50px; 
+   width: 150px;
+   margin: 20px;
+   background-color: #003F91;
+}
+h3{border-width: 3px;
+    border: 1px solid black;
+}
+
+
+
+ 
+/* index 3 style */
+
+.website_container{
+    width: 100%;
+    height: auto;
+
+
+}
+
+.website{
+    width: 240px;
+    height: 150px;
+    background: white;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    line-height: 140px;
+    border-radius: 20px;
+    border: solid 2px black;
+    margin: 10px;
+
+
+   
+}
+.webcover{
+    display: flex;
+    margin: 0px
+}
+
+.webcover2{
+    display: flex;
+    margin: 10px
+}
+.webcover3{
+    display: flex;
+    margin: 10px
+}
+.webcover4{
+    display: flex;
+    margin: 10px
+}
+.btn_1{
+margin: 20px;
+}
+.btn_cont{
+    position: block;
+    width: 248px;
+    height: 57px;
+    left: 101px;
+    top: 859px;
+    
+    background: #003F91;
+    border-radius: 4px;;
+}
+
+/* html4 design */
+.get{
+display:flex;    
+margin-left: 40px
+}
+.container{
+    display:flex
+}
+
+.container2{
+    display:flex;
+    margin: 30px;
+}
+.take{
+       
+    margin-left: 34px;
+    display:flex;
+}
+.container3{
+    display:flex;
+
+   
+}
+.blog{  
+    margin-left: 34px;
+    display:flex;
+}
+
+.container4{
+    display:flex;
+    margin: 30px;
+   
+}
+.com{
+       
+    margin-left: 34px;
+    display:flex;
+}
+
+
+/* index 5 designs */
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-type: none;
+    line-height: 20px;
+    width: 700px;
+    margin-left: 50px;
+}
+.icons{
+margin: 30px;
+gap: 30;
+}
+
+
