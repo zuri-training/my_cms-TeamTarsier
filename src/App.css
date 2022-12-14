@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+:root {
+  --body-bg: #f5f8ff;
+  --box-bg: #fff;
+  --input-bg: #f5f8ff;
+  --txt-color: #2f2d2f;
+  --txt-second-color: #ccc;
+  --border-color: #4267b2;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --background-color: #fffeff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-image: var(--background-color);
+  color: var(--txt-color);
+}
+
+.App {
+  margin: 0px 0px;
+}

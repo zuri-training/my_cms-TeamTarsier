@@ -1,0 +1,48 @@
+.cta__con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  padding-top: 100px;
+}
+
+.cta__box {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #003f91;
+  width: 70%;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.cta__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 50px 100px;
+  gap: 40px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.cta__h1 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+p {
+  font-size: 15px;
+}
+
+.cta__button {
+  padding: 10px 40px;
+  background-color: white;
+  border-radius: 5px;
+  color: #003f91;
+  cursor: pointer;
+  font-size: 13px;
+}

@@ -1,0 +1,12 @@
+.dash__content {
+  display: flex;
+  justify-content: row;
+}
+
+.sidebar {
+  width: 28%;
+}
+
+.dashbody {
+  width: 72%;
+}

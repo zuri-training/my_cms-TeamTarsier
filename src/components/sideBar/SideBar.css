@@ -1,0 +1,104 @@
+.side__con {
+  display: flex;
+  flex-direction: column;
+  background-color: #003f91;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  gap: 497px;
+}
+
+.side__top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.side__head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.side__head__text {
+  cursor: pointer;
+}
+.num {
+  width: 100px;
+  height: 100px;
+}
+
+.head__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.head__info h1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.side__head__text {
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  align-items: center;
+  gap: 10px;
+}
+
+.side__head__text p {
+  font-size: 12px;
+}
+
+.hr {
+  width: 100%;
+  border: 0.01px solid white;
+  opacity: 0.5;
+}
+
+.side__lists__div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.side__lists {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.side__lists p {
+  font-size: 12px;
+  padding-left: 15px;
+}
+.side__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.active {
+  padding: 5px 0px;
+  background-color: #ccd9e9;
+  color: #003f91;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.side__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.header__con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__left {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: #003f91;
+  cursor: pointer;
+}
+
+.down {
+}
+
+.header__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  padding-right: 100px;
+}
+
+.login__button {
+  padding: 8px 25px;
+  background-color: #003f91;
+  border-radius: 3px;
+  color: #003f91;
+  border: 1px solid #003f91;
+  cursor: pointer;
+  background: none;
+}
+
+.signup__button {
+  padding: 8px 25px;
+  background-color: #003f91;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}

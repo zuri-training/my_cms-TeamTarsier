@@ -1,0 +1,30 @@
+.reason__con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 10px;
+  width: 100%;
+  color: #003f91;
+}
+
+.reason__h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.reason__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 70%;
+  text-align: center;
+}
+
+.reason__text p {
+  font-size: 12px;
+}

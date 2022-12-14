@@ -1,0 +1,152 @@
+.theme__con {
+  background-color: #003f91;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  gap: 40px;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.theme__head {
+  color: white;
+  padding: 10px 70px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  text-align: left;
+}
+
+.theme__head h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.theme__head p {
+  color: white;
+  font-size: 13px;
+}
+
+.theme__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.body__images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.theme__images1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme23 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme__images2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme__images3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme89 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme1 {
+  width: 250px;
+  height: 360px;
+}
+.theme2 {
+  width: 125px;
+  height: 140px;
+}
+.theme3 {
+  width: 125px;
+  height: 140px;
+}
+.theme4 {
+  width: 250px;
+  height: 150px;
+}
+.theme5 {
+  width: 250px;
+  height: 175px;
+}
+.theme6 {
+  width: 240px;
+  height: 475px;
+}
+.theme7 {
+  width: 230px;
+  height: 360px;
+}
+.theme8 {
+  width: 115px;
+  height: 140px;
+}
+.theme9 {
+  width: 115px;
+  height: 140px;
+}
+.theme10 {
+  width: 250px;
+  height: 150px;
+}
+
+.body__text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 50%;
+  font-size: 13px;
+}
+
+.theme__tail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-weight: 600;
+  gap: 5px;
+  cursor: pointer;
+}
+
+hr {
+  width: 20%;
+  border: 0.1px solid white;
+  opacity: 1;
+}

@@ -1,0 +1,20 @@
+.template {
+  box-sizing: border-box;
+}
+
+.templatechoices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+
+  position: absolute;
+  width: 1290px;
+  height: 682px;
+  left: 95px;
+  top: 563px;
+}
+.writeup {
+  text-align: center;
+}
